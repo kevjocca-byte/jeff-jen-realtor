@@ -1,0 +1,559 @@
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAGQAZADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUWEHInGBEzKRobHBCCNCUtHwFWIzJOEkdEJygpKzQ1NjczUn5Eg4RFRqb3Q2N3B4eJhYeHh4N3R3dZiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiY/9oADAMBAAIRAxEAPwD4/wAmhcgH2r9P2PzCi5APtX6fs/ywoosjNNh7P8sKKIzTYez/ACwooaGCZE+3rvX/AGf5YUURm24+3PvX/Z/lhRRGZ7j7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmW8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+9f9n+WFFEZhvPtz71/2f5YUURmG8+3PvX/AGf5YUURmG8+3PvX/Z/lhRRGYbz7c+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff Jen - Your Family Real Estate Agent for Life</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ffffff 0%, #f8fdfc 50%, #e0f2f1 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0, 150, 136, 0.1);
+            border-bottom: 2px solid #009688;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #009688;
+            font-family: 'Georgia', serif;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+
+        .nav-links a:hover {
+            color: #009688;
+        }
+
+        main {
+            margin-top: 80px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 6rem 0 4rem 0;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ffffff 0%, #f0fdfa 100%);
+        }
+
+        .hero-content {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .section {
+            padding: 4rem 0;
+            background: rgba(255, 255, 255, 0.95);
+            margin: 2rem 0;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            display: block;
+            margin: 1rem auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .skill-tag {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e1e1e1;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: white;
+            background: rgba(0,0,0,0.2);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Jeff Jen, Realtor®</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-img">🏡</div>
+                    <h1>Jeff Jen, Realtor®</h1>
+                    <p>Your Family Real Estate Agent for Life</p>
+                    <div style="margin: 1rem 0; font-size: 1rem; opacity: 0.9;">
+                        <div>DRE# 01396728</div>
+                        <div>Direct: (949) 350-9366</div>
+                        <div>English • Mandarin</div>
+                    </div>
+                    <a href="#contact" class="cta-button">Let's Find Your Dream Home</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2>About Jeff Jen</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>🏠 My Mission</h3>
+                        <p>My mission is simple: to be your family's real estate agent for life. I believe in building lasting relationships that span generations, helping families navigate their real estate journey with trust, expertise, and personalized care.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📈 22+ Years of Excellence</h3>
+                        <p>With over 22 years of dedicated experience serving Orange County and Los Angeles areas, I have the deep market knowledge and proven track record to guide you through any real estate transaction with confidence.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🌐 Bilingual Service</h3>
+                        <p>Fluent in both English and Mandarin, I proudly serve diverse communities throughout Southern California. Communication is key in real estate, and I ensure every client feels heard and understood.</p>
+                        <div class="skills">
+                            <span class="skill-tag">English</span>
+                            <span class="skill-tag">Mandarin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>My Real Estate Services</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>🏡 Home Buying</h3>
+                        <p>From first-time buyers to seasoned investors, I guide you through every step of the home buying process. Market analysis, negotiations, inspections - I've got you covered.</p>
+                        <div class="skills">
+                            <span class="skill-tag">First-Time Buyers</span>
+                            <span class="skill-tag">Investment Properties</span>
+                            <span class="skill-tag">Luxury Homes</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>💰 Home Selling</h3>
+                        <p>Maximize your property's value with strategic pricing, professional marketing, and expert negotiation. My proven marketing system gets results in today's competitive market.</p>
+                        <div class="skills">
+                            <span class="skill-tag">Market Analysis</span>
+                            <span class="skill-tag">Strategic Pricing</span>
+                            <span class="skill-tag">Professional Marketing</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>🌟 Market Expertise</h3>
+                        <p>Specializing in Orange County and Los Angeles areas, I provide insider knowledge of local markets, neighborhoods, schools, and community amenities to help you make informed decisions.</p>
+                        <div class="skills">
+                            <span class="skill-tag">Orange County</span>
+                            <span class="skill-tag">Los Angeles</span>
+                            <span class="skill-tag">Market Analysis</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>🤝 Family Legacy Service</h3>
+                        <p>Building generational relationships means being there for your family's evolving real estate needs - from your first home to investment properties to helping the next generation.</p>
+                        <div class="skills">
+                            <span class="skill-tag">Generational Service</span>
+                            <span class="skill-tag">Family Focused</span>
+                            <span class="skill-tag">Long-term Relationships</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>📊 Professional Credentials</h3>
+                        <p>Licensed California Real Estate Professional with DRE# 01396728. Committed to ongoing education and staying current with market trends and regulations.</p>
+                        <div class="skills">
+                            <span class="skill-tag">DRE# 01396728</span>
+                            <span class="skill-tag">Licensed Professional</span>
+                            <span class="skill-tag">Continuing Education</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>📞 Always Available</h3>
+                        <p>Real estate doesn't work on a 9-5 schedule, and neither do I. I'm available when you need me, providing responsive communication and timely updates throughout your transaction.</p>
+                        <div class="skills">
+                            <span class="skill-tag">24/7 Availability</span>
+                            <span class="skill-tag">Responsive Service</span>
+                            <span class="skill-tag">Direct Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Ready to Start Your Real Estate Journey?</h2>
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <p style="font-size: 1.1rem; color: #666; max-width: 600px; margin: 0 auto;">Whether you're buying your first home, selling your current property, or looking for investment opportunities, I'm here to guide you every step of the way.</p>
+                </div>
+                <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 3rem;">
+                    <div>
+                        <div class="contact-form">
+                            <h3 style="margin-bottom: 1.5rem; color: #333;">Get Your Free Consultation</h3>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">I'm Interested In</label>
+                                    <select id="service" name="service" style="width: 100%; padding: 1rem; border: 2px solid #e1e1e1; border-radius: 10px; font-size: 1rem;">
+                                        <option value="">Select a service...</option>
+                                        <option value="buying">Buying a Home</option>
+                                        <option value="selling">Selling a Home</option>
+                                        <option value="investment">Investment Properties</option>
+                                        <option value="consultation">Free Market Consultation</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Tell me about your real estate goals</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Share your timeline, budget range, preferred areas, or any questions you have..."></textarea>
+                                </div>
+                                <button type="submit" class="cta-button" style="width: 100%;">Get My Free Consultation</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="height: fit-content;">
+                            <h3>📞 Contact Information</h3>
+                            <div style="margin: 1.5rem 0;">
+                                <p style="margin: 0.8rem 0;"><strong>Direct Line:</strong> (949) 350-9366</p>
+                                <p style="margin: 0.8rem 0;"><strong>DRE License:</strong> #01396728</p>
+                                <p style="margin: 0.8rem 0;"><strong>Languages:</strong> English, Mandarin</p>
+                                <p style="margin: 0.8rem 0;"><strong>Service Areas:</strong> Orange County & Los Angeles</p>
+                            </div>
+                        </div>
+                        <div class="card" style="margin-top: 2rem;">
+                            <h3>🏆 Why Choose Jeff Jen?</h3>
+                            <ul style="margin: 1rem 0; padding-left: 1.5rem; line-height: 1.8;">
+                                <li>22+ years of proven experience</li>
+                                <li>Bilingual service (English/Mandarin)</li>
+                                <li>Deep local market knowledge</li>
+                                <li>Family-focused, generational relationships</li>
+                                <li>Available when you need me most</li>
+                                <li>Professional marketing strategies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="tel:+19493509366" title="Call Jeff">📞</a>
+                <a href="mailto:jeff@example.com" title="Email Jeff">📧</a>
+                <a href="#" title="LinkedIn">💼</a>
+                <a href="#" title="Zillow Profile">🏠</a>
+            </div>
+            <p>&copy; 2025 Jeff Jen, Realtor®. DRE# 01396728. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const message = document.getElementById('message').value;
+            
+            // Show success message (in a real implementation, you'd send this to a server)
+            alert(`Thank you ${name}! I've received your inquiry about ${service}. I'll contact you at ${phone || email} within 24 hours to discuss your real estate goals.`);
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.15)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.1)';
+            }
+        });
+
+        // Add intersection observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards for animation
+        document.querySelectorAll('.card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
